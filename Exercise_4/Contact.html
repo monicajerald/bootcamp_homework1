@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<h1 style="font-family:Verdana, Geneva, Tahoma, sans-serif;">Contact Us Extended</h1>
+<form style="font-size: larger;">
+    <label class="required";for="fname">First name</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+    <style>
+        .required::after{content: "*";color:red;font-size: 20px;}
+    </style>
+    <label class="required" ;for="lname">Last name</label><br>
+    <style>
+        .required::after{content: "*";color:red;font-size: 20px;}
+    </style>
+    <input size="25" type="text" id="fname" name="fname">
+    <input size="25" type="text" id="lname" name="lname"><br><br>
+    <label class="required";for="email">Email</label><br>
+    <style>
+        .required::after{content: "*";color:red;font-size: 20px;}
+    </style>
+    <input size="60" type="text" id="email" name="email" ><br><br>
+    <label for="phonenumber">Phone Number</label><br>
+    <input size="60" type="text" id="phonenumber" name="phonenumber"><br><br>
+    <label for="Address">Address</label><br>
+    <form action="/action_page.php">
+        <textarea id="Address" name="Address" rows="6" cols="70">
+        </textarea> <br> <br>
+    <label for="email">City</label><br>
+    <input size="72" type="text" id="fname" name="fname"><br><br>
+    <label for="State/Province">State/Province</label><br>
+    <form action="/action_page.php">
+        <textarea id="State/Province" name="State/Province" rows="2" cols="70">
+        </textarea> <br> <br>
+    <label for="Country">Country</label><br>
+    <form action="/action_page.php">
+            <textarea id="Country" name="Country" rows="2" cols="70">
+            </textarea> <br> <br>
+    <label for="Zip/Postal Code">Zip/Postal Code</label><br>
+    <input size="72" type="text" id="Zip/Postal Code" name="Zip/Postal Code"><br><br>
+
+    <label for="Comments and Questions">Comments and Questions</label><br>
+    <form action="/action_page.php">
+        <textarea id="Comments and Questions" name="Comments and Questions" rows="6" cols="70">
+        </textarea> <br> <br>
+        <input type="submit" value="Submit">
+</form>
+</html>
